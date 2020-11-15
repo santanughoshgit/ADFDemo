@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "ds_git_adf_demo_datalakegen2_claim",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_git_adf_demo_datalakegen2",
