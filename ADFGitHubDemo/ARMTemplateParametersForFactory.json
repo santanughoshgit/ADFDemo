@@ -4,6 +4,12 @@
 	"parameters": {
 		"factoryName": {
 			"value": "ADFGitHubDemo"
+		},
+		"ls_git_adf_demo_datalakegen2_accountKey": {
+			"value": ""
+		},
+		"ls_git_adf_demo_datalakegen2_properties_typeProperties_url": {
+			"value": "https://storagegen2datalake1988.dfs.core.windows.net"
 		}
 	}
 }
