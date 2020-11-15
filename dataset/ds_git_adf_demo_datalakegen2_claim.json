@@ -1,0 +1,42 @@
+{
+	"name": "ds_git_adf_demo_datalakegen2_claim",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_git_adf_demo_datalakegen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Claim.csv",
+				"folderPath": "ClaimDataSet",
+				"fileSystem": "container1988"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	}
+}
